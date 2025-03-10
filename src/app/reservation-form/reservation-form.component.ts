@@ -35,6 +35,5 @@ export class ReservationFormComponent implements OnInit{
       let reservation: Reservation = this.reservationForm.value
       this.reservationService.addReservation(reservation)
     }
-
    }
 }
